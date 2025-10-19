@@ -63,27 +63,6 @@ The platform enables online service booking, vehicle and inventory management, f
 
 ---
 
-## 📂 Project Structure
-
-AutoCareServiceCenter/
-│
-├── backend/ # Express + Node.js backend
-│ ├── config/ # DB connection & environment setup
-│ ├── controllers/ # Route handlers (CRUD logic)
-│ ├── models/ # MongoDB schemas
-│ ├── routes/ # API endpoints
-│ └── server.js # Backend entry point
-│
-├── frontend/ # React frontend
-│ ├── src/
-│ │ ├── components/ # Reusable UI elements
-│ │ ├── pages/ # Page views (Service, Vehicle, etc.)
-│ │ ├── services/ # API integration
-│ │ ├── App.js # Root React component
-│ │ └── index.js # App entry point
-│
-└── README.md
-
 ## 🔒 Security Features
 - Passwords hashed using bcrypt.js
 - JWT-based authentication & authorization
